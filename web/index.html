@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles/main.css" type="text/css"/>
+        <link rel="icon" href="./img/favicon.png" type="image/gif" />
+    </head>
+    <body>
+        <div class="BD">
+            <form action="survey" method="post">
+                <h1>SURVEY</h1>
+                <p>If you have a moment, we'd appreciate it if you would fill out this survey.</p>
+
+                <h2>Your information:</h2>
+                <div class="ipf">
+                    <label class="pad_top">First Name</label>
+                    <input type="text" name="firstName" required><br>
+                    <label class="pad_top">Last Name</label>
+                    <input type="text" name="lastName" required><br>
+                    <label class="pad_top">Email</label>
+                    <input type="text" name="email" required><br>
+                </div>
+                <h2>How did you hear about us?</h2>
+                <p>
+                    <input type="radio" name="heardFrom" value="Search Engine">Search engine
+                    <input type="radio" name="heardFrom" value="Friend">Word of mouth
+                    <input type="radio" name="heardFrom" value="Other">Other
+                </p>
+
+                <h2>Would you like to receive announcements about new CDs and special offers?</h2>
+                <p>
+                    <input type="checkbox" name="wantsUpdates" checked>YES, I'd like that.
+                </p>
+
+                <p>
+                    Please contact me by:
+                    <select name="contactVia" class="posmail">
+                        <option value="Both" selected class="infoposmail">Email or postal mail</option>
+                        <option value="Email" selected class="infoposmail">Email only</option>
+                        <option value="Postal Mail" selected class="infoposmail">Postal mail only</option>
+                    </select>
+                </p>
+
+                <input type="submit" value="Submit" class="_btn">
+            </form><!--
+            -->        </div>
+    </body>
+</html>

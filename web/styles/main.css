@@ -1,0 +1,89 @@
+body { 
+    background: url('../img/BackG.jpg')no-repeat center / cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 85%;
+    margin: 0 2em 0 2em;
+    /*background: #666699;*/
+}
+.BD{
+    /*    display: flex;
+        flex-direction: column;
+        justify-content: center;*/
+    width: 25em;
+    /*background: #80b3ff;*/
+    display: block;
+    margin: 4rem auto;
+    border-radius: 10px;
+    height: 92vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+h1 {     
+    font-size: 140%;
+    color: #ff3333;
+    text-align: center;
+    letter-spacing: 6px;
+    padding: 20px 0 0 0;
+}
+h2 {     
+    font-size: 120%;
+    color: #ff3333;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+label {
+    float: left;
+    width: 7em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+input[type="text"], input[type="email"], .posmail {  /* An attribute selector */
+    width: 20em;
+    /*    margin-left: 0.5em;    
+        margin-bottom: 0.5em;*/
+    background-color: Transparent;
+    border: 2px solid white;
+    color: white;
+    display: flex;
+    margin: auto;
+}
+.posmail{
+    width: 10em;
+}
+.infoposmail{
+    color: black;
+}
+.ipf{
+    padding-left: 0.5em;    
+}
+span {
+    margin-left: 0.5em;    
+    margin-bottom: 0.5em;    
+}
+br {
+    clear: both;
+}
+
+/* The styles for the classes */
+.pad_top,p {
+    color: white;
+    text-align: center;
+    padding: 0 20px;
+}
+.margin_left {
+    margin-left: 0.5em;
+}
+._btn{
+    padding: 10px;
+    background-color: #000000;
+    cursor:pointer;
+    /*    overflow: hidden; */
+    color: #ffffff;
+    display: flex;
+    margin: auto;
+}
+._btn:hover{
+    color: #999999;
+    background-color: #ffffff;
+}
+
